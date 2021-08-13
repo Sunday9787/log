@@ -16,7 +16,7 @@ or using yarn:
 yarn add @sunday9787/log --dev
 ```
 
-## example
+## Example
 
 特殊类型日志
 
