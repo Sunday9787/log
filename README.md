@@ -28,7 +28,7 @@ log(new Date().toISOString(), 'build')
 log('1.0.2', 'build', ['#2196f3', '#e91e63'])
 ```
 
-![特殊类型日志](http://qiniu.daixiu8.cn/20210812144411.png)
+![特殊类型日志](./images/20210812144411.png)
 
 自定义 日志输出
 
@@ -36,4 +36,4 @@ log('1.0.2', 'build', ['#2196f3', '#e91e63'])
 log({ label: 'this', message: 'window' }, ['red', '#9c27b0'])
 ```
 
-![特殊类型日志](http://qiniu.daixiu8.cn/20210812144424.png)
+![特殊类型日志](./images/20210812144424.png)
