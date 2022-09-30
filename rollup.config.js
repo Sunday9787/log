@@ -38,6 +38,7 @@ const config = [
       }),
       babel({
         babelrc: false,
+        babelHelpers: 'bundled',
         presets: [
           [
             '@babel/env',
@@ -45,7 +46,7 @@ const config = [
               useBuiltIns: 'usage',
               targets: {
                 node: 8,
-                browsers: ['ie > 8']
+                browsers: ['chrome > 30']
               }
             }
           ]
